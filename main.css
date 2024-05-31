@@ -1,0 +1,174 @@
+
+:root{
+    --background-color: #0c0418;
+    --primary-color: #ba0bf9;
+    --font-primary-color: #feffff;
+    --font-secondery-color: #FD6F00;
+}
+
+.experience{
+    padding: 80px;
+    background-color: #332525;
+    display: flex;
+    justify-content: space-between;
+}
+.ex-title{
+    width: 30%;
+}
+.ex-title h2{
+    margin: 10px 0 20px 0;
+    text-transform: uppercase;
+}
+.job-title{
+    padding: 0 150px;
+}
+.job-title h2{
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.job-title h6{
+    margin-top: 20px;
+}
+
+.present{
+    border-bottom: 1px solid #feffff;
+}
+.present h6{
+    display: flex;
+    justify-content: space-between;
+}
+.past-1{
+    border-bottom: 1px solid #feffff;
+}
+.past-1 h6{
+    display: flex;
+    justify-content: space-between;
+}
+.past-2 h6{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Start Award */
+.award{
+    padding: 50px;
+    background-color: #1e1e1e;
+}
+.section-title{
+    text-align: center;
+    
+}
+.section-title h2{
+    text-transform: uppercase;
+}
+.award h2, h3{
+    padding: 30px 0;
+}
+.award-1, .award-2{
+    background-color: #000;
+    margin: 30px 0;
+    padding: 30px;
+}
+.award-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    
+}
+/* Start Portfolio */
+.portfolio{
+    padding: 50px;
+    background-color: #1e1e1e;
+}
+.section-title h2{
+    margin: 20px 0;
+}
+.skill-name{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+}
+.skill-name h2{
+    background-color: #000;
+    padding: 10px 15px;
+}
+.project{
+    padding-top: 30px;
+}
+.project-1{
+    display: flex;
+    padding: 60px 0;
+    
+}
+.image{
+    width: 50%;
+    background-color: #000;
+}
+.image img{
+    width: 80%;
+    padding: 15px 60px;
+}
+.project-content{
+    width: 50%;
+    padding: 50px;
+}
+.project-content h2{
+    margin: 10px 0;
+}
+/* Start Contact */
+.contact{
+    padding: 50px;
+    background-color: #1e1e1e;
+}
+.form{
+    background-color: #34261b;
+    padding: 60px 200px;
+}
+.name-email{
+    display: flex;
+    gap: 100px;
+}
+.name-email .name, .email{
+    border-bottom: 1px solid #feffff;
+    width: 50%;
+}
+.message{
+    border-bottom: 1px solid #feffff;
+}
+.button button{
+    background-color: var(--font-secondery-color);
+    padding: 10px 15px;
+    border: none;
+}
+/* Start Footer */
+.footer{
+    text-align: center;
+}
+.footer-container{
+    background-color: #000;
+    padding: 30px 0;
+}
+.footer-container .logo{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.footer-container .logo h1{
+    color: #FD6F00;
+}
+.footer-container .menu{
+    text-align: center;
+    padding: 0 140px;
+}
+.footer-container .social-icon{
+    text-align: center;
+    padding: 0 140px;
+}
+.copyright{
+    background-color: #121212;
+    text-align: center;
+    padding: 15px 0;
+}
+.copyright span{
+    color: var(--font-secondery-color);
+}

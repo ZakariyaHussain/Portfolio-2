@@ -1,0 +1,181 @@
+
+
+:root{
+    --background-color: #1e1e1e;
+    --primary-color: #ba0bf9;
+    --font-primary-color: #feffff;
+    --font-secondery-color: #FD6F00;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--font-primary-color);
+}
+
+body{
+    
+}
+
+.header-container{
+    padding: 30px 80px;
+    background-color: #1e1e1e;
+}
+.nav-container{
+    display: flex;
+    padding: 5px 0;
+
+    
+}
+.nav-container .logo{
+    width: 30%;
+    
+     
+}
+.nav-container .logo h3{
+    color: #FD6F00;
+    text-transform: uppercase;
+}
+.nav{
+    width: 70%;
+    color: var(--font-primary-color); 
+    display: flex; 
+    justify-content: space-between;
+      
+}
+.menu{
+    width: 80%;
+    color: var(--font-primary-color); 
+    display: flex; 
+    justify-content: space-between; 
+    
+}
+
+.download{
+    background-color: #FD6F00;
+    padding: 0 20px;
+}
+
+/* Start Banner */
+
+.banner-container{
+    margin-top: 180px;
+    display: flex;
+}
+.banner-content{
+    width: 45%;
+}
+.banner-title{
+    font-family: onton;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 0;  
+}
+.banner-title span{
+    color: var(--font-secondery-color);
+}
+
+.banner-description{
+    font-size: 20px;
+    margin: 30px 0;
+}
+.designation{
+    display: flex;
+    gap: 10px;
+    
+}
+.designation h2{
+    font-weight: 100;
+}
+.designation span{
+    color: var(--font-secondery-color);
+}
+
+.common-button button{
+    background-color: var(--font-secondery-color);
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-top: 40px;
+    border: none;
+}
+.social-icon i{
+    padding: 10px;
+    margin-top: 30px;
+    
+}
+
+/* End Banner Content */
+/* Start Banner Image */
+.banner-image{
+    margin: 30px 0 0 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 1px solid #FD6F00;
+    position: relative;
+
+}
+.banner-image img{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -30px;
+    
+    
+}
+/* End Banner */
+.add{
+    width: 1500px;
+    height: 80px;
+    background-color: #000;
+    margin: 0 -100px;
+    rotate: -3deg;
+    display: flex;
+    justify-content: space-around;  
+}
+.add h2, i{
+    padding: 30px 0;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.about-content{
+    width: 60%;
+}
+.about-content h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.ex{
+    text-align: right;
+}
+.ex .icon i{
+    color: #FD6F00;
+}
+.ex h2{
+    margin: 5px 0;
+}
+/* End About */
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    
+    body{
+        padding: 0 30px;
+    }
+   
+}
